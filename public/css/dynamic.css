@@ -1,0 +1,18 @@
+.padding-remover{
+	padding: 0;
+	margin-top: 2%;
+}
+#name{
+	width: 100%;
+	padding: 4px;
+}
+#bday{
+	width: 100%;
+	padding: 4px;
+}
+.well{
+	height: 280px;
+}
+.btn {
+	margin: 2px;
+}

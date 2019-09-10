@@ -1,0 +1,130 @@
+            html, body {
+                background-color: #fff;
+                color: #fff;
+                font-family: 'Carme', sans-serif;
+                font-weight: 100;
+                height: 100%;
+                margin: 0;
+            }
+            .main {
+                background-image: url("/photos/bg main.jpg");
+                height: 100%;
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: auto;
+            }
+
+            .full-height {
+                height: 100%;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #fff;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+            .about {
+                background-color: #222222;
+                background-image: url("/photos/150pxAboutBanner.jpg");
+                height: 135vh;
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: auto;
+            }
+
+            .aboutContent {
+                clear: both;
+                width: 100%;
+                background-color: #222222;
+                font-family: 'Poppins', sans-serif;
+                line-height: 10px;
+                text-align: center;
+                color: #696969;
+            }
+
+            h1{
+                font-size: 60px;
+                color: #fff;
+            }
+            h4{
+                font-size: 35px;
+            }
+            p{
+                font-size: 20px;
+            }
+
+            .meetTheTeam{
+                font-family: 'Poppins', sans-serif;
+                background-color: #222222;
+                background-image: url("/photos/bg main.jpg");
+                height: 120vh;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: auto;
+                font-size: 20px;
+            }
+
+            .headerTeam{
+                text-align: center;
+            }
+
+            .column {
+                float: left;
+                width: 300px;
+                margin-bottom: 16px;
+                padding: 0 8px;
+            }
+
+            .card {
+                background-color: #222222;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+
+            .container::after, .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .title2 {
+                color: grey;
+            }
